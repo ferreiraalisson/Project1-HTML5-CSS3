@@ -13,140 +13,145 @@
             <!-- fontes exportadas -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">		
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
 
-	<body>
+<body>
 
-		<header id="#topo"> <!-- Topo do site -->
-			<div class="imglogo">
-				<img src="img/body_esthetic_logo2.png" alt="logo">
-			</div>
-			<h1>Body Esthetic Botafogo</h1> 
-		</header>
-	
-		<nav> 
-			<ul> <!-- Menu -->
-				<li><a href="index.html">Home</a></li>
-				<li><a href="loc.html">Localização</a></li>
-				<li><a href="cont.html">Contatos</a></li>
-				<li><a href="#">Serviços e Tratamentos</a> 
-					<ul class="submenu clearfix"> <!-- submenu -->
-						<li><a href="ruschain.html">Corrente Russa</a></li>
-						<li><a href="depilacao.html">Depilação</a></li>
-						<li><a href="lymph.html">Drenagem Linfática</a></li>
-						<li><a href="skin.html">Limpeza de pele</a></li>
-						<li><a href="shaping.html">Massagem Modeladora</a></li>
-						<li><a href="quick.html">Quick</a></li>
-						<li><a href="shiatsu.html">Shiatsu</a></li>
-						<li><a href="eyebrows.html">Sobrancelhas</a></li>		
-					</ul>
-				</li>
-			</ul>
-		</nav>
-	
-		<section> <!-- banner -->
-			<img src="img/fale_logo.jpg" alt="banner de boas-vindas" class="banner">
-		</section>
+	<header id="#topo"> <!-- Topo do site -->
+		<div class="imglogo">
+			<img src="img/body_esthetic_logo2.png" alt="logo">
+		</div>
+		<h1>Body Esthetic Botafogo</h1> 
+	</header>
 
-		<form>
-			<section class="conteudo">
-				<br><h1>Contatos</h1></br>
+	<nav> 
+		<ul> <!-- Menu -->
+			<li><a href="index.html">Home</a></li>
+			<li><a href="loc.html">Localização</a></li>
+			<li><a href="cont.html">Contatos</a></li>
+			<li><a href="#">Serviços e Tratamentos</a> 
+				<ul class="submenu clearfix"> <!-- submenu -->
+					<li><a href="ruschain.html">Corrente Russa</a></li>
+					<li><a href="depilacao.html">Depilação</a></li>
+					<li><a href="lymph.html">Drenagem Linfática</a></li>
+					<li><a href="skin.html">Limpeza de pele</a></li>
+					<li><a href="shaping.html">Massagem Modeladora</a></li>
+					<li><a href="quick.html">Quick</a></li>
+					<li><a href="shiatsu.html">Shiatsu</a></li>
+					<li><a href="eyebrows.html">Sobrancelhas</a></li>		
+				</ul>
+			</li>
+		</ul>
+	</nav>
 
-				<h1>Marque sua consulta:</h1>
-	
-				<form name="form1" method="post" action="paginadescript.php"> <!--mailto:nomedeusuario@servidor.com.br-->
-					<label for="nomeCli">Nome:</label>
-						<input type="text" name="nomeCli" id="nomeCli"/>
-					
-					<label for="emailCli">E-mail:</label>
-						<input type="text" name="emailCli" id="emailCli"/></p> <!-- o uso do <br/> no inicio da tag faz com que a caixa de  dialogo desça -->
-
-					Sexo: 
-						<input type="radio" name="sexo" value="Feminino"/>
-						Feminino
-	
-						<input type="radio" name="sexo" value="Masculino"/>
-						Masculino</br>
-	
-					<br><p>Áreas de interesse:</p>
-						
-						<input type="checkbox" name="interesses" id="interesses" value="Massagem Modeladora">					
-						Massagem Modeladora
-						<input type="checkbox" name="interesses" id="interesses" value="Drenagem Linfática">
-						Drenagem Linfática
-						<input type="checkbox" name="interesses" id="interesses" value="Limpeza de pele">
-						Limpeza de Pele
-						<br>
-						<input type="checkbox" name="interesses" id="interesses" value="Corrente Russa">
-						Corrente Russa
-						<input type="checkbox" name="interesses" id="interesses" value="Sobrancelhas">
-						Sobrancelhas
-						<input type="checkbox" name="interesses" id="interesses" value="Depilação">
-						Depilação
-	
-					</br>
-					<p>Comentário:
-					<br>(Comente aqui sua preferência de dia/hora e dúvidas dos serviços)</p>
-	
-					<textarea neme="comentario" cols="50" rows="5" style="resize:none;"></textarea>
-					</br>	
-					<input type="submit" value="Enviar" class="botao1">
-					<input type="reset" value="Limpar" class="botao2">
-				</form>
-			</section>
-
-	<section class="conteudo">
-        </br><h1>Fale Conosco:</h1>
-		<form name="form1" method="post" action="paginadescript.php"> <!--mailto:nomedeusuario@servidor.com.br-->
-			
-			<label for="nomeCli"> Nome: </label>
-			<input type="text" name="nomeCli" id="nomeCli"/>
-
-			<label for="emailCli"> E-mail: </label>
-			<input type="text" name="emailCli" id="emailCli"/>
-
-			<p>
-			Sexo: 
-			<input type="radio" name="sexo" value="Feminino"/>
-			Feminino
-			<input type="radio" name="sexo" value="Masculino"/>
-			Masculino</p>
-
-			<p>
-			Comentário: 
-			<br/>
-			<textarea neme="comentario" cols="50" rows="10" style="resize:none;">
-			</textarea>
-			</p>
-
-			<input type="submit" value="Enviar" class="botao1">
-			<input type="reset" value="Limpar" class="botao2">
-			<br>
-		</form>
+	<section> <!-- banner -->
+		<img src="img/fale_logo.jpg" alt="banner de boas-vindas" class="banner">
 	</section>
 
+	<form>
+		<section class="conteudo">
+			<br><h1>Contatos</h1></br>
+
+			<h1>Marque sua consulta:</h1>
+
+			<form name="form1" method="post" action="paginadescript.php"> <!--mailto:nomedeusuario@servidor.com.br-->
+				<label for="nomeCli">Nome:</label>
+					<input type="text" name="nomeCli" id="nomeCli"/>
+				
+				<label for="emailCli">E-mail:</label>
+					<input type="text" name="emailCli" id="emailCli"/></p> <!-- o uso do <br/> no inicio da tag faz com que a caixa de  dialogo desça -->
+
+				Sexo: 
+					<input type="radio" name="sexo" value="Feminino"/>
+					Feminino
+
+					<input type="radio" name="sexo" value="Masculino"/>
+					Masculino</br>
+
+				<br><p>Áreas de interesse:</p>
+					
+					<input type="checkbox" name="interesses" id="interesses" value="Massagem Modeladora">					
+					Massagem Modeladora
+					<input type="checkbox" name="interesses" id="interesses" value="Drenagem Linfática">
+					Drenagem Linfática
+					<input type="checkbox" name="interesses" id="interesses" value="Limpeza de pele">
+					Limpeza de Pele
+					<br>
+					<input type="checkbox" name="interesses" id="interesses" value="Corrente Russa">
+					Corrente Russa
+					<input type="checkbox" name="interesses" id="interesses" value="Sobrancelhas">
+					Sobrancelhas
+					<input type="checkbox" name="interesses" id="interesses" value="Depilação">
+					Depilação
+
+				</br>
+				<p>Comentário:
+				<br>(Comente aqui sua preferência de dia/hora e dúvidas dos serviços.
+				</br>deixe o seu contato para retorno!)</p>
+
+				<textarea neme="comentario" cols="50" rows="5" style="resize:none;"></textarea>
+				</br>	
+				<input type="submit" value="Enviar" class="botao1">
+				<input type="reset" value="Limpar" class="botao2">
+			</form>
+		</section>
+
+		<hr>
+
+		<section class="conteudo">
+			</br><h1>Fale Conosco:</h1>
+			<form name="form1" method="post" action="paginadescript.php"> <!--mailto:nomedeusuario@servidor.com.br-->
+				
+				<label for="nomeCli"> Nome: </label>
+				<input type="text" name="nomeCli" id="nomeCli"/>
+
+				<label for="emailCli"> E-mail: </label>
+				<input type="text" name="emailCli" id="emailCli"/>
+
+				<p>
+				Sexo: 
+				<input type="radio" name="sexo" value="Feminino"/>
+				Feminino
+				<input type="radio" name="sexo" value="Masculino"/>
+				Masculino</p>
+
+				<p>
+				Comentário: 
+				<br/>
+				<textarea neme="comentario" cols="50" rows="10" style="resize:none;">
+				</textarea>
+				</p>
+
+				<input type="submit" value="Enviar" class="botao1">
+				<input type="reset" value="Limpar" class="botao2">
+				<br>
+			</form>
+		</section>
+
 	<footer> <!-- roda pé -->
-        <a href="Index.html" class="botao">Voltar</a>
-        
-        <div class="infos">
+		<a href="Index.html" class="botao">Voltar</a>
+		
+		<div class="infos">
 
-            <p>Encontre-nos através do smartphone</p>
+			<p>Encontre-nos através do smartphone</p>
 
-            <div>
-                <img src="img/whats_logo.png" alt="whatsapp" class="imginfo">
-                <p><a href="cel:21968572734"> (21) 96857-2734</a></p>
-            </div>
+			<div>
+				<img src="img/whats_logo.png" alt="whatsapp" class="imginfo">
+				<p><a href="cel:21968572734"> (21) 96857-2734</a></p>
+			</div>
 
-            <div style="margin-bottom: 13px;">
-                <img src="img/logo_facebook.png" alt="facebook" class="imginfo2">
-                <p><a href="#">Facebook</a></p>
-            </div>
+			<div style="margin-bottom: 13px;">
+				<img src="img/logo_facebook.png" alt="facebook" class="imginfo2">
+				<p><a href="#">Facebook</a></p>
+			</div>
 
-        </div>
+		</div>
 
-        <div class="creditos">
-            <p>Desenvolvido por: Alisson Ferreira</p>
-        </div>
-        <br>
-    </footer>
+		<div class="creditos">
+			<p>Desenvolvido por: Alisson Ferreira</p>
+		</div>
+		<br>
+	</footer>
+	
 </body>
 </html>
