@@ -1,0 +1,312 @@
+body {
+    font-family: arial, tahoma, helvetica, sans-serif;
+    color: #1c1c1c;
+    background-image: url("../img/bg.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    text-align:  center;
+}
+
+/* Header */
+
+header{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color:#ffffff;
+    opacity: 0.5;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* Logo do header*/
+.imglogo{
+    float: left;
+}
+
+/* Texto do header  */
+h1 {
+    font-family: 'Quicksand', sans-serif;
+	color: #1ebaaa;   
+}
+
+/* Menu */
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faecfa;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+nav a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	text-decoration: none; 
+    color: #000000;  
+	border-left:  .5em solid #1ebaaa; 
+	background-color: #A9D9D2;
+    border-radius: 20px;
+    margin: 0px ;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #000000; 
+    font-weight: 800;
+    font-size: 32px;
+}
+
+nav ul {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 95%;
+    margin: 3px;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+nav > li {
+    float:left;
+}
+
+nav li{
+    position:relative;
+    margin: 0px 10px;
+}
+
+nav li a:hover{
+	background: #c4ff3a;
+}
+
+nav li:hover > .submenu {
+	display:block;
+}
+
+.submenu{
+	display: none;
+	list-style: none;
+	position: absolute;
+    text-align: center;
+    width: 95%;
+    opacity: none;
+}
+
+/* section  */
+section{
+    margin-top: 5px;
+    background-color:#ffffff;
+    border-radius:20px;
+}
+
+/* banner  */
+
+.banner{
+
+	width: 100%;
+	margin: 0 auto;
+    border-radius:20px;
+
+}
+
+
+/* Conteúdo da pagina */
+
+.sobre{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px 10px 20px 20px;
+    background-color:#ffffff;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    text-indent: 3ch;
+    padding-right: 12px;
+}
+
+.sobre h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #1ebaaa; 
+    text-align: center;
+}
+
+.conteudo{
+    background-color:#ffffff;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.conteudo2{
+    background-color:#ffffff;
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+/* texto */
+
+
+
+/* Rodapé */
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #1ebaaa;
+    opacity: 0.5;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.infos{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.imginfo{
+	width:50px;
+    Height:50px;
+	float: center;
+	
+}
+
+.imginfo2{
+	width:60px;
+    Height:60px;
+	float: center;
+	
+}
+
+.botao{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 5px 30px;
+    background-color: greenyellow;
+    font-size:.9em;
+    border-radius: 20px;
+}
+
+.botao1{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 5px 30px;
+    background-color: greenyellow;
+    font-size:.9em;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.botao2{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 5px 30px;
+    background-color: rgb(255, 47, 57);
+    font-size:.9em;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.creditos{
+    float:right;
+    height: 31px;
+}
+
+.creditos p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.map{
+    align-items: center;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    }
+
+.sobre ul{
+    padding: 0px 20px;
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 768px) {
+
+    .imglogo{
+        float: left;
+    }
+    
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .banner {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    .sobre {
+        height: 250 px;
+        height: 30 vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    .infos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .infos p {
+        width: 100%;
+    }
+   
+    .map{
+        width: 1000px;
+        height: 450px;
+        height: 45 vh;
+        border-radius: 50px;
+        opacity: none;
+    }
+
+}
+
